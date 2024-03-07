@@ -8,8 +8,6 @@ sudo pacman-key --populate holo
 sudo pacman -Sy archlinux-keyring holo-keyring
 sudo pacman -Sy xorg-xinput
 sudo pacman -Sy redshift
-echo fixing xinput
-xinput --map-to-output "wch.cn USB2IIC_CTP_CONTROL" "DisplayPort-0"
 echo enabling readonly
 sudo steamos-readonly enable
 echo done
